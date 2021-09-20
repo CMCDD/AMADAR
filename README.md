@@ -174,10 +174,13 @@ This step returned 16 successive configurations of the system, of which the last
 The refinement of the previous structure into a guess took less than 30 seconds.
 The guess TS shows a slightly asymmetric TS, where the two nascent C-C bonds are 2.08 and 2.16 angstroms long.
 
+![alt text](graphics/guessTS.png)
+
 ++ TS : 
 
 Terminated after 5 minutes at the b3lyp/6-31G(d) level. The predicted TS has a unique imaginary frequency of 574.50i. 
 It is a refined structure compared to the guess, in which the two C-C bonds measure 2.19 and 2.32 angstroms respectively.
 	
-	
+![alt text](graphics/TS.png)
+
 
