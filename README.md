@@ -137,5 +137,3 @@ LEVEL = 	Level of theory to use for the previous job.
 WBOA_ID= 	ID number of the system (IRC file) for which a Wiberg Bond order analysis should be done based on the output of the previous step.
 		This will work if single point calculations for the geoemtries extracted from the IRC path of the system of interest was be run and saved in the "path" folder.
 		
-Documentation_analysis.txt
-Displaying Comm_JChemInfo_Bienfait_18_09.docx.
