@@ -97,18 +97,18 @@ Unq_RFA = 	This keyword indicates the list of ID numbers of IRC files to include
 
 Multiple_RF = 	This keyword indicates the list of ID numbers of IRC files to include in the multiple RFA in order to superimpose their reaction force curves. 
 		Values must be integers, separated by commas. 
-		The value "-1" is not allowed to avoid that the case where a user should try to overlay 1000000000 systems :)
+		The value "-1" is not allowed as the number of overlayable systems must stay limited for efficiency.
 		The value 0 disables the analysis.
 
 Multiple_RE = 	This keyword indicates the list of ID numbers of IRC files to include in the multiple RFA in order to superimpose their potential energy curves. 
 		Values must be integers, separated by commas. 
-		The value "-1" is not allowed to avoid that the case where a user should try to overlay 1000000000 systems :).
+		The value "-1" is not allowed as the number of overlayable systems must stay limited for efficiency.
 		The value 0 disables the analysis.
 
 
 Multiple_RFC =  This keyword indicates the list of ID numbers of IRC files to include in the multiple RFA in order to superimpose their reaction force constant curves. 
 		Values must be integers, separated by commas. 
-		The value "-1" is not allowed to avoid that the case where a user should try to overlay 1000000000 systems :). 
+		The value "-1" is not allowed as the number of overlayable systems must stay limited for efficiency.
 		The value 0 disables the analysis.
 		
 
