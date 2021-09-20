@@ -2,7 +2,7 @@
 
 ## About
 
-ADAMAR can identify the transition state of a Diels-Alder reaction, given the product, with a 95% success rate. All that is required is an input SMILES string of the product, and bothr reactant and product 3d structures will be generated, and the transitions tate will be generated and refined at a chosen high level of theory. Further ADAMAR can analyse the IRC for the specific DA process, for example in terms of RFA.
+ADAMAR can identify the transition state of a Diels-Alder reaction, given the product, with a 95% success rate. All that is required is an input SMILES string of the product, and both reactant and product 3d structures will be generated, and the guess transition state will be generated and refined at a chosen high level of theory. Further, ADAMAR can analyse the IRC for the specific DA process, for example in terms of Reaction Force Analysis (RFA).
 
 ## Getting Started
 
