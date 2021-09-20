@@ -171,9 +171,9 @@ This step returned 16 successive configurations of the system, of which the last
 
 ++ Guess TS & TS: 
 
-It took less than 30 seconds to refine the previous structure into the starting point for a last refinement at QM level (guess).
-The guess for the TS shows a slightly asymmetric TS, where the two nascent C-C bonds are 2.08 and 2.16 angstroms long.
-Once the guess was refined at the b3lyp/6-31G(d) level, a more asymmetric TS is predicted (with a unique imaginary frequency of 574.50i), in which the two C-C bonds measure 2.19 and 2.32 angstroms respectively.
+It took less than 30 seconds to refine the previous structure into the guess TS at the same semi-empirical PM6 level of theory.
+The guess for the TS shows a slightly asymmetric TS, with the two nascent C-C bonds evaluated to 2.08 and 2.16 angstroms long.
+The refinement of the guess at the b3lyp/6-31G(d) level resulted in a more asymmetric TS (with a unique imaginary frequency of 574.50i), in which the two C-C bonds measure 2.19 and 2.32 angstroms respectively.
 	
 ![alt text](graphics/guess_and_TS.PNG)
 
