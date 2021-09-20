@@ -2,7 +2,7 @@
 
 ## About
 
-ADAMAR can identify the transition state of a Diels-Alder reaction, given the product, with a 95% success rate. All that is required is an input SMILES string of the product, and both reactant and product 3d structures will be generated, and the guess transition state will be generated and refined at a chosen high level of theory. Further, ADAMAR can analyse the IRC for the specific DA process, for example in terms of Reaction Force Analysis (RFA).
+ADAMAR can identify the transition state of a Diels-Alder reaction, given the product, with a 95% success rate. All that is required is an input SMILES string of the product, and both reactant and product 3d structures will be generated; and the transition state will be generated and refined at a user-defined high level of theory. Further, ADAMAR can analyse the IRC for the specific DA process, for example in terms of Reaction Force Analysis (RFA).
 
 ## Getting Started
 
@@ -110,7 +110,7 @@ Multiple_RFC =  This keyword indicates the list of ID numbers of IRC files to in
 		Values must be integers, separated by commas. 
 		The value "-1" is not allowed to avoid that the case where a user should try to overlay 1000000000 systems :). 
 		The value 0 disables the analysis.
-
+		
 
 **[RFD]**
 JOB_ID = 	This keyword indicates the ID number of IRC file to consider for the the atomic decomposition of energy derivatives . 
