@@ -151,7 +151,7 @@ We provide here below a series of examples showing some basic manipulations that
 
 **Settings**: 
 
-- The following SMILES string was placed in the SMILES.txt file:CN(CC1CCCC1)C(=O)C(=O)NC[C@H]1C[C@H]2C=C[C@H]1C2. Note that we could have placed as many SMILES strings as possible.
+- The following SMILES string was placed in the SMILES.txt file:FC1CC=CCC1. Note that we could have placed as many SMILES strings as possible.
 - The "TS_FLAG" flag was set to 1 in the da.ini file, while keeping all the other flags of the "flags" section to 0. Only the "SCRATCH" flag had to be set to 1 because we needed the code to start the process from the very begining.
 - The job details were set as follows:NPROCSHARED = 4 and D_SPLITTING = 0.24 and CALC_LEVELS_TS = pm6;pm6;b3lyp/6-31G(d). The rest of keywords in the "job_details' section could be left blank.
 
@@ -160,12 +160,12 @@ We provide here below a series of examples showing some basic manipulations that
 ++ Pseudo-guess TS: 
 
 Generated within 3 minutes. Note that this duration may change considerably depending on the size and complexity of the system.
-The performance of the algorithm at this step can be enhanced in increasing the number of processors to devote to the job.
-This step returns 16 successive configurations of the system, of which the last one (highest energy one) constitutes the pseudo-guess TS.
+The performance of the algorithm at this step can be enhanced in increasing the number of processors you allocate for the job.
+This step returned 16 successive configurations of the system, of which the last one (highest energy one) constitutes the pseudo-guess TS.
 
 ++ Guess TS: 
 
-The refinement of the previous structure into a guess is often very fast. In this case, less than 30 seconds.
+The refinement of the previous structure into a guess took less than 30 seconds.
 The guess TS shows a slightly asymmetric TS, where the two nascent C-C bonds are 2.08 and 2.16 angstroms long.
 
 ++ TS : 
