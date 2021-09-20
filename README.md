@@ -167,7 +167,7 @@ Generated within 3 minutes. Note that this duration may change considerably depe
 The performance of the algorithm at this step can be enhanced in increasing the number of processors you allocate for the job.
 This step returned 16 successive configurations of the system, of which the last one (highest energy one) constitutes the pseudo-guess TS.
 
-https://github.com/CMCDD/AMADAR/blob/graphics/pguessTS.png
+![alt text](https://github.com/CMCDD/AMADAR/blob/graphics/pguessTS.png)
 
 ++ Guess TS: 
 
