@@ -17,6 +17,7 @@ There are two configuration files: **da.ini** and **analysis.ini**, in which all
 This file must be edited prior to generation of transition states. There are two sections to this configuration script **[job_details]** and **[flags]**. Please also see the sample da.ini provided.
 
 **[job_details]**
+
 NPROCSHARED = number of processors to be used for the jobs
 
 D_SPLITTING = Final distance between the two fragments during the constrained optimization
@@ -49,6 +50,7 @@ TS_ID_numbers = ID numbers of the reactions for which  for which the IRC path ha
         
 
 **[flags]**
+
 SCRATCH = 	This flag can only have 0 and 1 values. 
 		1 tells the initialization code to regenerate the very initial input files saved in the R,C and TS folders
 		0 tells the initialization code to skip the regeneration. This option will only work if there are already input files  in the R, C and TS or IRC folders.
@@ -90,6 +92,7 @@ OVERWRITE_FLAG = 	This flag tell whether the managder3 module to overwrite IRC f
 This file must be edited prior to analyzing IRC's that have already been generated. There are three sections to this configuration file, **[RFA]**, **[RFD]** and **[IRC_PATHS]**. Please also look at the example analysis.ini provided.
 
 **[RFA]**
+
 Unq_RFA = 	This keyword indicates the list of ID numbers of IRC files to include in the reaction force analysis.
 		Values must be integers, separated by commas. 
 		In case all the files are to be considered, the value "-1" must be used. 
@@ -113,6 +116,7 @@ Multiple_RFC =  This keyword indicates the list of ID numbers of IRC files to in
 		
 
 **[RFD]**
+
 JOB_ID = 	This keyword indicates the ID number of IRC file to consider for the the atomic decomposition of energy derivatives . 
 		The value 0 disables the analysis.
 
@@ -130,6 +134,7 @@ FRAG_NAMES = 	The names of the fragments must be given in the same order as indi
 
 
 **[IRC_PATHS]**
+
 IRC_ID= 	ID number of the IRC file for which the geometries have to be extracted and run (single point calculation,with pop analysis)
 
 LEVEL = 	Level of theory to use for the previous job.
