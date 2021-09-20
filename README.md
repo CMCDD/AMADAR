@@ -174,7 +174,7 @@ This step returned 16 successive configurations of the system, of which the last
 The refinement of the previous structure into a guess took less than 30 seconds.
 The guess TS shows a slightly asymmetric TS, where the two nascent C-C bonds are 2.08 and 2.16 angstroms long.
 
-![alt text](graphics/guess.png)
+![alt text]((graphics/guess.png))
 
 ++ TS : 
 
