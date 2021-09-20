@@ -170,7 +170,7 @@ The guess TS shows a slightly asymmetric TS, where the two nascent C-C bonds are
 
 ++ TS : 
 
-Terminated after 5 minutes at the b3lyp/6-31G(d) level. It has a unique imaginary frequency of 574.50i. 
+Terminated after 5 minutes at the b3lyp/6-31G(d) level. The predicted TS has a unique imaginary frequency of 574.50i. 
 It is a refined structure compared to the guess, in which the two C-C bonds measure 2.19 and 2.32 angstroms respectively.
 	
 	
