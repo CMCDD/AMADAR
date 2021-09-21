@@ -1,1 +1,1 @@
-Settings and outputs for example 2
+Settings and outputs files for example 2
