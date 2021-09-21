@@ -182,9 +182,9 @@ The refinement of the guess at the b3lyp/6-31G(d) level resulted in a more asymm
 
 **Settings**: 
 
-- The TS_ID_numbers keyword ("job_details" section of the da.ini file) was given the values 308 and 585. 
-  This command tells the code to run IRC calculation from two predicted TSs (tsRx308p1 and tsRx585p1) of a list of 2000 TSs used to test the performance of the code. 
-  Note that we could have chosen to perfrom the calculation for more systems.
+- "The TS_ID_numbers" keyword ("job_details" section of the da.ini file) was given the values 308 and 585 separated by a comma. 
+  This command tells the code to run IRC calculations from two predicted TSs (tsRx308p1 and tsRx585p1) of a list of 2000 TSs used to test the performance of the code. 
+  Note that we could have chosen to consider more systems for this task.
 - CALC_LEVEL_IRC = b3lyp/6-31G(d) ; NBR_IRC_POINT_PP = 60 ;IRC_STEP_SIZE = 8 . These details define the level of theory, the number of points to construct on the IRC path and the step-size. We could have been used other details, depending on the targeted accuracy and the nature of the system. These are the default settings. 
 - NBR_PATHS=1 . This keyword ("job_details" section) must be set to 1 at the moment. In future version of the program, there will be the possibility to construct two separate input files for the IRC calculation, one for the forward direction and the other for the backward one.
 - In the "flags" section of the da.ini file, the IRC_FLAG" keyword was set to 1, while keeping all the others to 0. Make sure you do not set the "OVERWRITE_FLAG" keyword to 1 because this may overwritte some of the files or folders you still need to look at.
