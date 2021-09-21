@@ -202,6 +202,22 @@ R585p1
 ![alt_text](graphics/IRC585.PNG)
 
 
+### Example3 : Reaction force analysis from a specific IRC path
+
+**Settings**:
+
+- The "RFA_FLAG" flag was set to 1 in the "flags" section of the da.ini file.
+- Then, in the analysis.ini file, the following settings were considered : Unq_RFA = 308, 585; Multiple_RF = 0; Multiple_RE = 0 and Multiple_RFC = 0.
+  These details tell the code to perfom a complete reaction force analysis for the systems with IDs 308 and 585. This imply that two plots should be returned (for the two systems), each containing three curves: the potential energy E of the system, the reaction force F and the reaction force constant K.
+  Note that if we wanted for example to overlay the reaction force curves of the two systems on the same plot, we should have given the "Multiple_RF" keyword the values 308 and 585 separated by a comma.
+  In addition, this analysis supposes that the IRC paths of Rx308p1 and Rx585p1 have already been generated and saved automatically in the appropriate folder. Otherwise, a message error of the kind ('FileNotFound') will be returned and the execution aborted.
+
+**Results**:
+
+The plots below show the results of the reaction force analysis. The shape of the reaction force constant K seems to be a good indicator of the synchronicity of these reactions, while E is not very affected.
+
+
+
 
 
 
