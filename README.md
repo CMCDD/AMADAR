@@ -214,8 +214,13 @@ R585p1
 
 **Results**:
 
-The plots below show the results of the reaction force analysis. The shape of the reaction force constant K seems to be a good indicator of the synchronicity of these reactions, while E is not very affected.
+The plots below show the results of the reaction force analysis. The profile of the reaction force constant K (red curves) seems to be a good indicator of the synchronicity of these reactions, while E is not very affected. 
 
+Rx308p1
+![alt_text](graphics/rfaRx308p1.png)
+
+Rx585p1
+![alt_text](graphics/rfaRx585p1.png)
 
 
 
