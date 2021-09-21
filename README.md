@@ -241,10 +241,10 @@ Rx585p1
 The plots below show the results of the decomposition of F and K in terms of contributions stemming from the pairs of terminal C atoms.  
 
 F decomposition
-![alt_text](graphics/rffdRx585p1.png)
+![alt_text](graphics/rffdRx585p1.PNG)
 
 K decomposition
-![alt_text](graphics/rfcfdRx585p1.png)
+![alt_text](graphics/rfcfdRx585p1.PNG)
 
 
 
