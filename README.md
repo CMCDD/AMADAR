@@ -192,12 +192,13 @@ The refinement of the guess at the b3lyp/6-31G(d) level resulted in a more asymm
 **Results**:
 
 Two input files for IRC calculations were produced, then executed. The energy profiles obtained are given here after.
-These IRC paths were confirmed to link the reactant to the product configurations through the TS.
+These IRC paths were confirmed to link the reactant to the product configurations through the TS. 
+R308p1 is predicted with an activation energy of 24.47 kcal/mol and reaction energy of -30.75 kcal/mol, while the same parameters are valued to 20.7 kcal/mol and -40.79 kcal/mol for R585p1.
 
-Reaction 308
+Rx308p1
 ![alt_text](graphics/IRC308.PNG)
 
-Reaction 585
+R585p1
 ![alt_text](graphics/IRC585.PNG)
 
 
