@@ -194,6 +194,13 @@ The refinement of the guess at the b3lyp/6-31G(d) level resulted in a more asymm
 Two input files for IRC calculations were produced, then executed. The energy profiles obtained are given here after.
 These IRC paths were confirmed to link the reactant to the product configurations through the TS.
 
+Reaction 308
+![alt_text](graphics/IRC308.PNG)
+
+Reaction 585
+![alt_text](graphics/IRC585.PNG)
+
+
 
 
 
