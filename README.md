@@ -10,6 +10,7 @@ ADAMAR includes two main scripts, **__init.pynb** and **myIRCAnalyzer.ipynb**, d
 There are two configuration files: **da.ini** and **analysis.ini**, in which all Diels-Alder transition state searches and analyses may be customized.
 
 **__init.ipynb** generates transition states and IRC results and takes as input **SMILES.txt** and **da.ini**
+
 **myIRCAnalyzer.ipynb** analyzes the IRC's and takes as input **analysis.ini** which will include details of IRC's available.
 
 
