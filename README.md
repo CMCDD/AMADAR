@@ -223,6 +223,30 @@ Rx585p1
 ![alt_text](graphics/rfaRx585p1.png)
 
 
+### Example4 : Performing fragment decomposition of F and K
+
+**Settings**:
+
+- The "RFD_FLAG" flag was set to 1 in the "flags" section of the da.ini file.
+- Then, in the analysis.ini file ('RFD" section), the following settings were considered : 
+  JOB_ID = 585 
+  ATOMS = 0
+  FRAG = 18,19;20,21
+  FRAG_NAMES = C18&C19,C20&21
+  These details tell the code to perfom a fragment decomposition of F and K for the systems with ID 585. This imply that two plots should be returned, one for the showing the contributions of each fragment (group of atoms) to the reaction force F and the other to the reaction force constant K.
+  Note that if we wanted for example to perfom this decomposition for specific atoms, we should have given a list of atomic indexes to the "ATOMS" keyword separated by commas. Like the RFA, this analysis supposes that the IRC paths of Rx308p1 and Rx585p1 have already been generated and saved automatically in the appropriate folder. Otherwise, a message error of the kind ('FileNotFound') will be returned and the execution aborted.
+
+**Results**:
+
+The plots below show the results of the decomposition of F and K in terms of contributions stemming from the pairs of terminal C atoms.  
+
+F decomposition
+![alt_text](graphics/rffdRx585p1.png)
+
+K decomposition
+![alt_text](graphics/rfcfdRx585p1.png)
+
+
 
 
 
