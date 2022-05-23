@@ -6,12 +6,12 @@ ADAMAR can identify the transition state of a Diels-Alder reaction, given the pr
 
 ## Getting Started
 
-ADAMAR includes two main scripts, **__init.pynb** and **myIRCAnalyzer.ipynb**, dependent on **RDKit**, **os**,**sys**,**time** and **shutil**. There are several modules which are called by these two scripts. In addition **Gaussian** must be installed and accessible for calculation on the local machine. Support for **GAMESS** is not yet available.
+ADAMAR includes two main scripts, **__init.py** and **myIRCAnalyzer.py**, dependent on **RDKit**, **os**,**sys**,**time** and **shutil**. There are several modules which are called by these two scripts. In addition **Gaussian** must be installed and accessible for calculation on the local machine. Support for **GAMESS** is not yet available.
 There are two configuration files: **da.ini** and **analysis.ini**, in which all Diels-Alder transition state searches and analyses may be customized.
 
-**__init.ipynb** generates transition states and IRC results and takes as input **SMILES.txt** and **da.ini**
+**__init.py** generates transition states and IRC results and takes as input **SMILES.txt** and **da.ini**
 
-**myIRCAnalyzer.ipynb** analyzes the IRC's and takes as input **analysis.ini** which will include details of IRC's available.
+**myIRCAnalyzer.py** analyzes the IRC's and takes as input **analysis.ini** which will include details of IRC's available.
 
 
 ## Configuration Files
